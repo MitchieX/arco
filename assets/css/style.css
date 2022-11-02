@@ -6,6 +6,11 @@ Font load
 /*=========
 Color Code
 ===========*/
+
+html{
+  scroll-behavior: smooth;;
+}
+
 @-webkit-keyframes fadeInDown {
   from {
     opacity: 0;
@@ -1281,6 +1286,10 @@ select:visited {
       
       -o-transition: .8s all ease-in-out;
       transition: .8s all ease-in-out; }
+
+      .service-pic img{
+        width: 100%;
+      }
     .service-content .service-pic-text:after {
       top: 0;
       left: 0;
